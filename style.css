@@ -2,7 +2,12 @@ body {
   background-color: rgb(23,99,0);
 }
 
-h1, p {
+h1 {
+  color: white;
+  font-family: "WDXL Lubrifont JP N";
+}
+
+p {
   color: white;
   font-family: sans-serif;
 }
