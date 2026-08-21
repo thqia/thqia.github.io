@@ -19,6 +19,6 @@ p {
 
 #wip {
   margin: auto;
-  color: white;
+  background-color: white;
   border: 15px ridge rgb(0, 255, 0);
 }
