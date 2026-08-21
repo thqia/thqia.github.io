@@ -1,4 +1,8 @@
-h1 {
+body {
+  background-color: green;
+}
+
+h1, p {
   color: white;
   font-family: sans-serif;
 }
