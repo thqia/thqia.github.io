@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(23,99,0);
+  background-color: rgb(23, 99, 0);
 }
 
 h1 {
-  color: white;
+  color: rgb(23, 99, 0);
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -11,8 +11,14 @@ h1 {
 }
 
 p {
-  color: white;
+  color: green;
   font-family: "Arial", sans-serif;
   font-weight: bold;
   text-align: center;
+}
+
+#wip {
+  margin: auto;
+  color: white;
+  border: 15px ridge green;
 }
