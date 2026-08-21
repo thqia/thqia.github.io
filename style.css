@@ -11,7 +11,7 @@ h1 {
 }
 
 p {
-  color: green;
+  color: rgb(0, 255, 0);
   font-family: "Arial", sans-serif;
   font-weight: bold;
   text-align: center;
@@ -20,5 +20,5 @@ p {
 #wip {
   margin: auto;
   color: white;
-  border: 15px ridge green;
+  border: 15px ridge rgb(0, 255, 0);
 }
