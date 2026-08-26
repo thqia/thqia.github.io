@@ -16,7 +16,6 @@ h1, h2 {
     padding: 100px 10px;
     word-wrap: break-word;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
