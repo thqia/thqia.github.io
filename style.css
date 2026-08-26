@@ -30,6 +30,13 @@ h1, h2 {
     padding: 5px;
     border: 5px solid rgb(158,224,148);
     margin-right: 20px;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.menu-buttons:hover, .menu-buttons:active {
+    background-color: rgb(158, 224, 148);
+    color: black;
 }
           
 #menu {
