@@ -1,7 +1,9 @@
-body {
-  margin: 0;
+main, body {
+  margin-top: 130px;
   padding: 0;
   background-color: rgb(158, 224, 148);
+  display: flex;
+  word-wrap: break-word;
   font-family: "georgia", serif;
 }
 
@@ -9,14 +11,6 @@ h1, h2 {
     color: rgb(53, 102, 20); 
     font-family: "pangolin", sans-serif;
     font-weight: 700;
-}
-
-#page {
-    position: relative;
-    padding: 130px 10px;
-    word-wrap: break-word;  
-    display: flex;
-    align-items: center;
 }
 
 a, a:visited, a:hover, a: active {
