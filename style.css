@@ -97,4 +97,6 @@ a, a:visited, a:hover, a: active {
     background-color: rgb(158, 224, 148);
     border: 15px solid rgb(53, 102, 20);
     padding: 20px;
+    display: flex;
+    align-items: center;
 }
