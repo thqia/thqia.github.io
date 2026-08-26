@@ -1,5 +1,8 @@
 main, body {
   margin: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   background-color: rgb(158, 224, 148);
   word-wrap: break-word;
@@ -91,10 +94,9 @@ a, a:visited, a:hover, a: active {
 }
 
 #wip {
+    margin: auto;
     width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: rgb(158, 224, 148);
     border: 15px solid rgb(53, 102, 20);
     padding: 20px;
