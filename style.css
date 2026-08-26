@@ -13,7 +13,7 @@ h1, h2 {
 
 #page {
     position: relative;
-    padding: 100px 10px;
+    padding: 120px 10px;
     word-wrap: break-word;
     display: flex;
     align-items: center;
@@ -90,5 +90,4 @@ h1, h2 {
     background-color: rgb(158, 224, 148);
     border: 15px solid rgb(53, 102, 20);
     padding: 20px;
-    display: flex;
 }
