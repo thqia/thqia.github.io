@@ -5,26 +5,88 @@ body {
   font-family: "georgia", serif;
 }
 
+h1, h2 {
+    color: rgb(53, 102, 20); 
+    font-family: "pangolin", sans-serif;
+    font-weight: 700;
+}
+
+#page {
+    position: relative;
+    padding: 80px 10px;
+    word-wrap: break-word;
+}
+
+
+/* menu bar styles */
+.menu-buttons {
+    background-color: rgb(53, 102, 20);
+    color: rgb(158, 224, 148);
+    font-size: 15px;
+    font-family: "pangolin", sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    border: 5px solid rgb(158,224,148);
+    margin-right: 20px;
+}
+          
+#menu {
+    background-color: rgb(53, 102, 20);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+}
+          
+#menu-items-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+          
+#name {
+    font-family: "pangolin", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(158, 224, 148);
+}
+          
+#pfp {
+    border-radius: 50%;
+    border: 5px solid rgb(158, 224, 148);
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+/* wip box styles */
+
 #wip-h1 {
-  color: rgb(53, 102, 20);
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  margin-top: 0;
+    color: rgb(53, 102, 20);
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0;
 }
 
 #wip-p {
-  color: rgb(53, 102, 20);
-  font-family: "georgia", serif;
-  font-weight: bold;
-  text-align: center;
+    color: rgb(53, 102, 20);
+    font-family: "georgia", serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 #wip {
-  margin: auto;
-  width: 50%;
-  background-color: rgb(158, 224, 148);
-  border: 15px solid rgb(53, 102, 20);
-  padding: 20px;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(158, 224, 148);
+    border: 15px solid rgb(53, 102, 20);
+    padding: 20px;
 }
