@@ -15,6 +15,7 @@ h1, h2 {
     position: relative;
     padding: 80px 10px;
     word-wrap: break-word;
+    display: flex;
 }
 
 
@@ -84,9 +85,11 @@ h1, h2 {
 }
 
 #wip {
-    margin: auto;
     width: 50%;
     background-color: rgb(158, 224, 148);
     border: 15px solid rgb(53, 102, 20);
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
