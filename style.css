@@ -1,9 +1,12 @@
 body {
-  background-color: rgb(23, 99, 0);
+  margin: 0;
+  padding: 0;
+  background-color: rgb(158, 224, 148);
+  font-family: "georgia", serif;
 }
 
-h1 {
-  color: rgb(0, 255, 0);
+#wip-h1 {
+  color: rgb(158, 224, 148);
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -12,8 +15,8 @@ h1 {
 }
 
 p {
-  color: rgb(0, 255, 0);
-  font-family: "Arial", sans-serif;
+  color: rgb(158, 224, 148);
+  font-family: "georgia", serif;
   font-weight: bold;
   text-align: center;
 }
@@ -22,6 +25,6 @@ p {
   margin: auto;
   width: 50%;
   background-color: rgb(0, 0, 0);
-  border: 15px ridge rgb(0, 255, 0);
+  border: 15px solid rgb(158, 224, 148);
   padding: 20px;
 }
